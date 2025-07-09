@@ -27,7 +27,7 @@ This repository provides a structured and hands-on learning path to master **Red
 | Day | Topic                    | Key Concepts Covered                          | Status |
 | --- | ------------------------ | --------------------------------------------- | ------ |
 | 01  | Intro to OpenShift       | Architecture, Cluster Components              | ✅ Available |
-| 02  | OpenShift CLI & Projects | `oc` commands, project creation, RBAC         |
+| 02  | OpenShift CLI & Projects | `oc` commands, project creation, RBAC         | ✅ Available |
 | 03  | Deploying Applications   | BuildConfigs, DeploymentConfigs, Routes       |
 | 04  | ConfigMaps & Secrets     | Application configuration, secrets management |
 | 05  | Persistent Storage       | PVC, PV, dynamic provisioning                 |

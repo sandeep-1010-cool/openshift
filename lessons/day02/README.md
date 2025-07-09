@@ -3,12 +3,12 @@
 ## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
-- Master essential OpenShift CLI (`oc`) commands
-- Create and manage projects effectively
-- Understand OpenShift RBAC (Role-Based Access Control)
-- Work with users, groups, and permissions
-- Use advanced CLI features for resource management
-- Navigate between projects and contexts efficiently
+- Master advanced OpenShift CLI (`oc`) commands and features
+- Create and manage projects with advanced configurations
+- Understand and implement OpenShift RBAC (Role-Based Access Control)
+- Work with users, groups, and permissions effectively
+- Use advanced CLI features for resource management and monitoring
+- Implement project quotas, limits, and templates
 
 ---
 
@@ -94,60 +94,38 @@ Project (Namespace)
 - OpenShift CLI (`oc`) installed and configured
 - Admin access or ability to create projects
 
-### Exercise 1: Mastering Basic CLI Commands
+### Exercise 1: Advanced CLI Mastery
 
-#### Step 1: Authentication and Context
+#### Step 1: Authentication and Context Review
 ```bash
-# Login to your cluster
-oc login -u <username> -p <password> <cluster-url>
-
-# Check current context
+# Verify login and context
 oc whoami
 oc project
-
-# View cluster information
 oc cluster-info
-
-# Get help on any command
-oc help
-oc help <command>
 ```
 
-#### Step 2: Project Management
+#### Step 2: Project Management (Advanced)
 ```bash
-# List all projects you have access to
-oc get projects
-
-# Create a new project
+# Create a new project with specific settings
 oc new-project day02-lab --description="Day 02 learning project"
 
 # Switch to the project
 oc project day02-lab
 
-# Verify current project
-oc project -q
-
-# Get project details
+# Get detailed project information
 oc describe project day02-lab
 ```
 
-#### Step 3: Resource Management
+#### Step 3: Advanced Resource Management
 ```bash
-# List all resources in current project
-oc get all
+# List all resources with different output formats
+oc get all -o wide
+oc get all -o yaml | head -20
 
-# List specific resource types
-oc get pods
-oc get services
-oc get routes
-oc get deployments
-oc get configmaps
-oc get secrets
-
-# Get detailed information
-oc describe pod <pod-name>
-oc describe service <service-name>
-oc describe project day02-lab
+# List specific resource types with custom formatting
+oc get pods -o custom-columns=NAME:.metadata.name,STATUS:.status.phase,AGE:.metadata.creationTimestamp
+oc get services -o wide
+oc get routes -o wide
 ```
 
 ### Exercise 2: Advanced CLI Features
@@ -288,14 +266,14 @@ oc delete project day02-lab
 
 ## 📋 Lab Tasks
 
-### Task 1: CLI Mastery
-- [ ] Login to OpenShift cluster
-- [ ] Create a new project called `day02-practice`
-- [ ] List all resources in the project
+### Task 1: Advanced CLI Mastery
 - [ ] Use different output formats for resource listing
-- [ ] Create a simple deployment using CLI commands
+- [ ] Create a deployment using CLI commands
+- [ ] Use custom columns and jsonpath
+- [ ] Watch resources in real-time
+- [ ] Edit resources directly
 
-### Task 2: User Management
+### Task 2: User and Group Management
 - [ ] List all users in your project
 - [ ] Create a new user (if you have admin access)
 - [ ] Add a user to your project with appropriate role
@@ -309,7 +287,7 @@ oc delete project day02-lab
 - [ ] Test different user permissions
 - [ ] Remove role bindings
 
-### Task 4: Advanced Operations
+### Task 4: Advanced Project Operations
 - [ ] Create a resource quota for your project
 - [ ] Create a limit range
 - [ ] Export your project as a template

@@ -8,6 +8,7 @@ By the end of this lesson, you will be able to:
 - Explain the difference between OpenShift and vanilla Kubernetes
 - Navigate the OpenShift web console
 - Understand the concept of projects and namespaces
+- Perform basic cluster exploration and resource investigation
 
 ---
 
@@ -146,9 +147,6 @@ oc console
 ```bash
 # List all projects you have access to
 oc get projects
-
-# List projects in a specific format
-oc get projects -o wide
 ```
 
 #### Step 2: Create a New Project
@@ -158,7 +156,6 @@ oc new-project my-first-project --description="My first OpenShift project"
 
 # Verify project creation
 oc project my-first-project
-oc status
 ```
 
 #### Step 3: Explore Project Resources
@@ -170,26 +167,21 @@ oc get all
 oc describe project my-first-project
 ```
 
-### Exercise 4: Basic CLI Commands
+### Exercise 4: Basic Resource Exploration
 
 ```bash
 # Get current context
 oc whoami
 oc project
 
-# List resources
+# List basic resources
 oc get pods
 oc get services
 oc get routes
-oc get deployments
 
 # Describe resources
 oc describe pod <pod-name>
 oc describe service <service-name>
-
-# View logs
-oc logs <pod-name>
-oc logs -f <pod-name>  # Follow logs
 ```
 
 ---
@@ -208,10 +200,9 @@ oc logs -f <pod-name>  # Follow logs
 - [ ] Switch between different projects
 - [ ] Explore project quotas and limits
 
-### Task 3: Resource Investigation
+### Task 3: Basic Resource Investigation
 - [ ] List all resources in your project
 - [ ] Describe a resource (pod, service, etc.)
-- [ ] View logs of a running pod
 - [ ] Check project events
 
 ### Task 4: Console Navigation
@@ -263,7 +254,8 @@ Create a comprehensive report of your OpenShift cluster:
 - ✅ Master and worker nodes have specific roles
 - ✅ Projects provide multi-tenancy and resource isolation
 - ✅ Web console offers rich management interface
-- ✅ CLI provides powerful automation capabilities
+- ✅ Basic CLI commands for cluster exploration
+- ✅ Fundamental resource investigation techniques
 
 ### Next Steps:
 - **Day 02**: OpenShift CLI mastery and user management
