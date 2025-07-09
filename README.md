@@ -9,6 +9,9 @@ This repository provides a structured and hands-on learning path to master **Red
 ```
 ├── lessons/                 # Daily OpenShift lessons and hands-on labs
 │   ├── day01/               # Introduction to OpenShift, architecture
+│   │   ├── README.md        # Complete lesson content
+│   │   ├── lab-scripts.sh   # Automated lab exercises
+│   │   └── quick-reference.md # Essential commands & concepts
 │   ├── day02/               # OpenShift CLI (oc), projects, users
 │   └── ...
 ├── docs/                   # Setup instructions and issue resolution
@@ -21,9 +24,9 @@ This repository provides a structured and hands-on learning path to master **Red
 
 ## 📘 What You'll Learn
 
-| Day | Topic                    | Key Concepts Covered                          |
-| --- | ------------------------ | --------------------------------------------- |
-| 01  | Intro to OpenShift       | Architecture, Cluster Components              |
+| Day | Topic                    | Key Concepts Covered                          | Status |
+| --- | ------------------------ | --------------------------------------------- | ------ |
+| 01  | Intro to OpenShift       | Architecture, Cluster Components              | ✅ Available |
 | 02  | OpenShift CLI & Projects | `oc` commands, project creation, RBAC         |
 | 03  | Deploying Applications   | BuildConfigs, DeploymentConfigs, Routes       |
 | 04  | ConfigMaps & Secrets     | Application configuration, secrets management |
