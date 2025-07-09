@@ -33,7 +33,7 @@ This repository provides a structured and hands-on learning path to master **Red
 | 05  | Persistent Storage       | PVC, PV, dynamic provisioning                 | ✅ Available |
 | 06  | CI/CD Pipelines          | OpenShift Pipelines (Tekton), triggers        | ✅ Available |
 | 07  | Monitoring & Logging     | Prometheus, Grafana, Loki, EFK Stack          | ✅ Available |
-| 08  | Security & Policies      | SCC, Network Policies, RoleBindings           |
+| 08  | Security & Policies      | SCC, Network Policies, RoleBindings           | ✅ Available |
 | 09  | Operators & Helm         | OperatorHub, Helm Charts                      |
 | 10+ | Advanced Topics          | GitOps, Multi-tenancy, Cluster Upgrades       |
 
