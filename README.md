@@ -28,7 +28,7 @@ This repository provides a structured and hands-on learning path to master **Red
 | --- | ------------------------ | --------------------------------------------- | ------ |
 | 01  | Intro to OpenShift       | Architecture, Cluster Components              | ✅ Available |
 | 02  | OpenShift CLI & Projects | `oc` commands, project creation, RBAC         | ✅ Available |
-| 03  | Deploying Applications   | BuildConfigs, DeploymentConfigs, Routes       |
+| 03  | Deploying Applications   | BuildConfigs, DeploymentConfigs, Routes       | ✅ Available |
 | 04  | ConfigMaps & Secrets     | Application configuration, secrets management |
 | 05  | Persistent Storage       | PVC, PV, dynamic provisioning                 |
 | 06  | CI/CD Pipelines          | OpenShift Pipelines (Tekton), triggers        |
