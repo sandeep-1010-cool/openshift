@@ -31,7 +31,7 @@ This repository provides a structured and hands-on learning path to master **Red
 | 03  | Deploying Applications   | BuildConfigs, DeploymentConfigs, Routes       | ✅ Available |
 | 04  | ConfigMaps & Secrets     | Application configuration, secrets management | ✅ Available |
 | 05  | Persistent Storage       | PVC, PV, dynamic provisioning                 | ✅ Available |
-| 06  | CI/CD Pipelines          | OpenShift Pipelines (Tekton), triggers        |
+| 06  | CI/CD Pipelines          | OpenShift Pipelines (Tekton), triggers        | ✅ Available |
 | 07  | Monitoring & Logging     | Prometheus, Grafana, Loki, EFK Stack          |
 | 08  | Security & Policies      | SCC, Network Policies, RoleBindings           |
 | 09  | Operators & Helm         | OperatorHub, Helm Charts                      |
