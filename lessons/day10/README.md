@@ -87,6 +87,9 @@ OpenShift cluster upgrades ensure security, stability, and new features:
 ## 🛠️ Hands-On Lab
 
 ### Prerequisites
+
+> **📋 Reference**: See [shared/prerequisites.md](../shared/prerequisites.md) for detailed prerequisites and installation instructions.
+
 - OpenShift cluster access (from previous days)
 - OpenShift CLI (`oc`) installed and configured
 - Admin access for cluster operations
@@ -1295,6 +1298,8 @@ Create a complete enterprise multi-cluster GitOps solution:
 
 ## 📊 Key Commands Summary
 
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
+
 ### GitOps Management
 ```bash
 oc get application -n argocd
@@ -1328,6 +1333,8 @@ oc get servicemonitor -n monitoring
 ---
 
 ## 🚨 Common Issues & Solutions
+
+> **📋 Reference**: See [shared/troubleshooting.md](../shared/troubleshooting.md) for comprehensive troubleshooting guide.
 
 ### Issue: ArgoCD Application Sync Fails
 ```bash
@@ -1405,6 +1412,8 @@ After completing Day 10:
 ---
 
 ## 🔗 Additional Resources
+
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
 
 - [OpenShift GitOps Documentation](https://docs.openshift.com/container-platform/4.10/cicd/gitops/understanding-openshift-gitops.html)
 - [ArgoCD Documentation](https://argo-cd.readthedocs.io/)

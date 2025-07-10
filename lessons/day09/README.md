@@ -88,6 +88,9 @@ OpenShift provides seamless integration with OperatorHub:
 ## 🛠️ Hands-On Lab
 
 ### Prerequisites
+
+> **📋 Reference**: See [shared/prerequisites.md](../shared/prerequisites.md) for detailed prerequisites and installation instructions.
+
 - OpenShift cluster access (from previous days)
 - OpenShift CLI (`oc`) installed and configured
 - Admin access for operator installation
@@ -1324,6 +1327,8 @@ Create a comprehensive application ecosystem using operators and Helm:
 
 ## 📊 Key Commands Summary
 
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
+
 ### Operator Management
 ```bash
 oc get packagemanifest -n openshift-marketplace
@@ -1360,6 +1365,8 @@ oc get deployment -n <operator-namespace>
 ---
 
 ## 🚨 Common Issues & Solutions
+
+> **📋 Reference**: See [shared/troubleshooting.md](../shared/troubleshooting.md) for comprehensive troubleshooting guide.
 
 ### Issue: Operator Installation Fails
 ```bash
@@ -1433,6 +1440,8 @@ After completing Day 09:
 ---
 
 ## 🔗 Additional Resources
+
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
 
 - [OpenShift Operators Documentation](https://docs.openshift.com/container-platform/4.10/operators/understanding/olm-what-operators-are.html)
 - [OperatorHub Documentation](https://operatorhub.io/)

@@ -87,6 +87,9 @@ OpenShift provides persistent storage capabilities that allow applications to ma
 ## 🛠️ Hands-On Lab
 
 ### Prerequisites
+
+> **📋 Reference**: See [shared/prerequisites.md](../shared/prerequisites.md) for detailed prerequisites and installation instructions.
+
 - OpenShift cluster access (from previous days)
 - OpenShift CLI (`oc`) installed and configured
 - Understanding of application deployment
@@ -659,6 +662,8 @@ Create a complete application with different storage requirements:
 
 ## 📊 Key Commands Summary
 
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
+
 ### Storage Class Management
 ```bash
 oc get storageclass
@@ -701,6 +706,8 @@ oc get resourcequota <name> -o yaml
 ---
 
 ## 🚨 Common Issues & Solutions
+
+> **📋 Reference**: See [shared/troubleshooting.md](../shared/troubleshooting.md) for comprehensive troubleshooting guide.
 
 ### Issue: PVC Pending
 ```bash
@@ -779,6 +786,8 @@ After completing Day 05:
 ---
 
 ## 🔗 Additional Resources
+
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
 
 - [OpenShift Storage Documentation](https://docs.openshift.com/container-platform/4.10/storage/index.html)
 - [Kubernetes Storage Documentation](https://kubernetes.io/docs/concepts/storage/)

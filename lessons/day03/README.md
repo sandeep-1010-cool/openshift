@@ -63,6 +63,9 @@ OpenShift provides a comprehensive application deployment platform that extends 
 ## 🛠️ Hands-On Lab
 
 ### Prerequisites
+
+> **📋 Reference**: See [shared/prerequisites.md](../shared/prerequisites.md) for detailed prerequisites and installation instructions.
+
 - OpenShift cluster access (from Day 01 & 02)
 - OpenShift CLI (`oc`) installed and configured
 - Basic understanding of container images and deployments
@@ -382,6 +385,8 @@ Deploy a complete multi-tier application with proper configuration:
 
 ## 📊 Key Commands Summary
 
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
+
 ### BuildConfig Management
 ```bash
 oc new-app <source> --name=<name> --strategy=<strategy>
@@ -420,6 +425,8 @@ oc set probe deploymentconfig/<name> --liveness --get-url=<url>
 ---
 
 ## 🚨 Common Issues & Solutions
+
+> **📋 Reference**: See [shared/troubleshooting.md](../shared/troubleshooting.md) for comprehensive troubleshooting guide.
 
 ### Issue: Build Fails
 ```bash
@@ -484,6 +491,8 @@ After completing Day 03:
 ---
 
 ## 🔗 Additional Resources
+
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
 
 - [OpenShift Builds Documentation](https://docs.openshift.com/container-platform/4.10/builds/index.html)
 - [OpenShift Deployments Documentation](https://docs.openshift.com/container-platform/4.10/applications/deployments/index.html)

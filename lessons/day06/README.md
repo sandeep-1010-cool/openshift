@@ -87,6 +87,9 @@ OpenShift Pipelines is a cloud-native CI/CD solution based on Tekton that provid
 ## 🛠️ Hands-On Lab
 
 ### Prerequisites
+
+> **📋 Reference**: See [shared/prerequisites.md](../shared/prerequisites.md) for detailed prerequisites and installation instructions.
+
 - OpenShift cluster access (from previous days)
 - OpenShift CLI (`oc`) installed and configured
 - Understanding of application deployment
@@ -912,6 +915,8 @@ Create a complete CI/CD pipeline for a multi-environment deployment:
 
 ## 📊 Key Commands Summary
 
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
+
 ### Pipeline Management
 ```bash
 oc apply -f pipeline.yaml
@@ -956,6 +961,8 @@ oc get pods -l tekton.dev/pipelineRun=<name>
 ---
 
 ## 🚨 Common Issues & Solutions
+
+> **📋 Reference**: See [shared/troubleshooting.md](../shared/troubleshooting.md) for comprehensive troubleshooting guide.
 
 ### Issue: Pipeline Not Starting
 ```bash
@@ -1027,6 +1034,8 @@ After completing Day 06:
 ---
 
 ## 🔗 Additional Resources
+
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
 
 - [OpenShift Pipelines Documentation](https://docs.openshift.com/container-platform/4.10/pipelines/index.html)
 - [Tekton Documentation](https://tekton.dev/docs/)

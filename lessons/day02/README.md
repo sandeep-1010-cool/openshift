@@ -90,6 +90,9 @@ Project (Namespace)
 ## 🛠️ Hands-On Lab
 
 ### Prerequisites
+
+> **📋 Reference**: See [shared/prerequisites.md](../shared/prerequisites.md) for detailed prerequisites and installation instructions.
+
 - OpenShift cluster access (from Day 01)
 - OpenShift CLI (`oc`) installed and configured
 - Admin access or ability to create projects
@@ -351,6 +354,8 @@ Create a comprehensive RBAC setup across multiple projects:
 
 ## 📊 Key Commands Summary
 
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
+
 ### Project Management
 ```bash
 oc new-project <name> --description="Description"
@@ -389,6 +394,8 @@ oc project -q
 ---
 
 ## 🚨 Common Issues & Solutions
+
+> **📋 Reference**: See [shared/troubleshooting.md](../shared/troubleshooting.md) for comprehensive troubleshooting guide.
 
 ### Issue: Permission Denied
 ```bash

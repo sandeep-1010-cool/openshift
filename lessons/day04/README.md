@@ -79,6 +79,9 @@ Application ← Environment Variables + File System ← ConfigMaps + Secrets
 ## 🛠️ Hands-On Lab
 
 ### Prerequisites
+
+> **📋 Reference**: See [shared/prerequisites.md](../shared/prerequisites.md) for detailed prerequisites and installation instructions.
+
 - OpenShift cluster access (from previous days)
 - OpenShift CLI (`oc`) installed and configured
 - Basic understanding of application deployment
@@ -512,6 +515,8 @@ Create a complete configuration management system for a multi-tier application:
 
 ## 📊 Key Commands Summary
 
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
+
 ### ConfigMap Management
 ```bash
 oc create configmap <name> --from-literal=<key>=<value>
@@ -552,6 +557,8 @@ oc auth can-i <action> <resource> --as=<user>
 ---
 
 ## 🚨 Common Issues & Solutions
+
+> **📋 Reference**: See [shared/troubleshooting.md](../shared/troubleshooting.md) for comprehensive troubleshooting guide.
 
 ### Issue: ConfigMap Not Mounted
 ```bash
@@ -618,6 +625,8 @@ After completing Day 04:
 ---
 
 ## 🔗 Additional Resources
+
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
 
 - [OpenShift ConfigMaps Documentation](https://docs.openshift.com/container-platform/4.10/nodes/pods/nodes-pods-configmaps.html)
 - [OpenShift Secrets Documentation](https://docs.openshift.com/container-platform/4.10/nodes/pods/nodes-pods-secrets.html)

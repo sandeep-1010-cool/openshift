@@ -87,6 +87,9 @@ OpenShift provides a comprehensive monitoring and logging solution that includes
 ## 🛠️ Hands-On Lab
 
 ### Prerequisites
+
+> **📋 Reference**: See [shared/prerequisites.md](../shared/prerequisites.md) for detailed prerequisites and installation instructions.
+
 - OpenShift cluster access (from previous days)
 - OpenShift CLI (`oc`) installed and configured
 - Understanding of application deployment
@@ -866,6 +869,8 @@ Create a comprehensive monitoring and logging solution:
 
 ## 📊 Key Commands Summary
 
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
+
 ### Monitoring Commands
 ```bash
 oc get csv -n openshift-monitoring
@@ -903,6 +908,8 @@ oc logs -n openshift-monitoring deployment/alertmanager-main
 ---
 
 ## 🚨 Common Issues & Solutions
+
+> **📋 Reference**: See [shared/troubleshooting.md](../shared/troubleshooting.md) for comprehensive troubleshooting guide.
 
 ### Issue: Prometheus Not Collecting Metrics
 ```bash
@@ -973,6 +980,8 @@ After completing Day 07:
 ---
 
 ## 🔗 Additional Resources
+
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
 
 - [OpenShift Monitoring Documentation](https://docs.openshift.com/container-platform/4.10/monitoring/index.html)
 - [OpenShift Logging Documentation](https://docs.openshift.com/container-platform/4.10/logging/index.html)

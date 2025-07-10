@@ -87,6 +87,9 @@ By the end of this lesson, you will be able to:
 ## 🛠️ Hands-On Lab
 
 ### Prerequisites
+
+> **📋 Reference**: See [shared/prerequisites.md](../shared/prerequisites.md) for detailed prerequisites and installation instructions.
+
 - OpenShift cluster access (CRC, Minishift, or remote cluster)
 - OpenShift CLI (`oc`) installed
 - Web browser for console access
@@ -266,6 +269,8 @@ Create a comprehensive report of your OpenShift cluster:
 
 ## 🔗 Additional Resources
 
+> **📋 Reference**: See [shared/common-commands.md](../shared/common-commands.md) for comprehensive OpenShift command reference.
+
 - [OpenShift Documentation](https://docs.openshift.com/)
 - [OpenShift Architecture](https://docs.openshift.com/container-platform/4.10/architecture/index.html)
 - [OpenShift CLI Reference](https://docs.openshift.com/container-platform/4.10/cli_reference/openshift_cli/)
@@ -275,7 +280,9 @@ Create a comprehensive report of your OpenShift cluster:
 
 ## ❓ Troubleshooting
 
-### Common Issues:
+> **📋 Reference**: See [shared/troubleshooting.md](../shared/troubleshooting.md) for comprehensive troubleshooting guide.
+
+### Common Issues for This Lesson:
 
 1. **Login Problems**
    ```bash
